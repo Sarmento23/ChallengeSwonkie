@@ -21,7 +21,7 @@ $router->put("/video/{id}","YoutubeController@EditVideo");
 $router->get(
     '/',
     function () use ($router) {
-        return "Desafio-Swonkie : Henrique Sarmento";
+        return "Challenge-Swonkie : Henrique Sarmento";
     }
 );
 
